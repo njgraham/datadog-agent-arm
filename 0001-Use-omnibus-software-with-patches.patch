@@ -16,7 +16,7 @@ index bf6e9133..300f0c6b 100644
  # Use Chef's software definitions. It is recommended that you write your own
  # software definitions, but you can clone/fork Chef's to get you started.
 -gem 'omnibus-software', git: 'https://github.com/DataDog/omnibus-software.git', branch: (ENV['OMNIBUS_SOFTWARE_VERSION'] || 'master')
-+gem 'omnibus-software', git: 'https://github.com/adrienkohlbecker/omnibus-software.git', branch: 'ak/arm-6.11.1'
++gem 'omnibus-software', git: 'https://github.com/njgraham/omnibus-software.git', branch: 'ak/arm-6.11.1'
  
  
  gem 'mixlib-cli', '~> 1.7.0'
